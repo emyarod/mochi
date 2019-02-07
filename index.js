@@ -1,4 +1,4 @@
-const N = 8;
+const N = 7;
 const randN = n => Math.floor(Math.random() * n);
 const video = document.querySelector('#mochi');
 video.src = `public/${randN(N)}.webm`;
